@@ -10,10 +10,15 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link rel="shortcut icon" type="image/ico" href="./img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
   <title>Zenva Store Front</title>
   <style>
     body {
       padding-top: 54px;
+    }
+
+    blockquote {
+      display: block;
     }
 
     @media only screen and (min-width:992px) {
@@ -24,9 +29,31 @@
   </style>
 </head>
 
-<body>
+<body class="bg-secondary">
   <h1>Zenva Store Front</h1>
 
+  <!-- START OF FOOTER -->
+  <footer class="py-5 bg-dark text-muted text-center">
+    <div class="container">
+      <div class="btn-group btn-group-sm my-3" role="group" aria-label="social-media-buttons">
+        <button class="btn btn-secondary" type="button"><i class="fa fa-snapchat-ghost"></i></button>
+        <button class="btn btn-secondary" type="button"><i class="fa fa-github-alt"></i></button>
+        <button class="btn btn-secondary" type="button"><i class="fa fa-google-plus"></i></button>
+        <button class="btn btn-secondary" type="button"><i class="fa fa-twitter"></i></button>
+      </div>
+      <small>
+        <p>&copy;<script>
+            document.write(new Date().getFullYear())
+          </script> It is fun to build awesome looking websites</p>
+        <blockquote>
+          &ldquo;Tell me and I forget, teach me and I may remember, involve me and I learn.&rdquo; &mdash;Benjamin
+          Franklin
+        </blockquote>
+      </small>
+      <p><img src="./img/logo.png" alt="Zenva Logo"></p>
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
