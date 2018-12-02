@@ -20,7 +20,8 @@
     blockquote {
       display: block;
     }
-
+    .navbar-toggler:focus{outline:none}
+    
     @media only screen and (min-width:992px) {
       body {
         padding-top: 56px;
@@ -31,7 +32,23 @@
 
 <body class="bg-secondary">
   <h1>Zenva Store Front</h1>
-
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">Zenva</a>
+      <button type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-label="Toggle Navigation"
+        aria-controls="#navbarResponsive" aria-expanded="false" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li><a href="" class="nav-link active">Zenva Academy</a></li>
+          <span class="sr-only">(Current)</span>
+          <li><a href="" class="nav-link">GameDev Academy</a></li>
+          <li><a href="" class="nav-link">All Courses</a></li>
+        </ul>
+      </div>
+      <!--end collapse div-->
+    </div>
+    <!--end container div-->
+  </nav>
   <!-- START OF FOOTER -->
   <footer class="py-5 bg-dark text-muted text-center">
     <div class="container">
